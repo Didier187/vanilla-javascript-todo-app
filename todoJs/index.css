@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+input[type = text]{
+    width: 600px;
+    padding: .5em;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+#addBtn{
+    padding: .6em 1.2em;
+    text-transform: uppercase;
+    background-color: lightblue;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+}
+.done{
+    color: lightgrey;
+    text-decoration: line-through;
+}
+input[type = checkbox]{
+    text-decoration: line-through;
+}
