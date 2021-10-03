@@ -1,0 +1,51 @@
+body{
+    background-color:white;
+    height: 100vh;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap:.5em;
+}
+input{
+    font-size:1.1em;
+    padding:.7em;
+    padding-bottom:0;
+    border:none;
+    border-bottom: 2px solid green;
+}
+input[type="checkbox"]{
+    width: 45px;
+    height: 15px;
+    background: #555;
+    position: relative;
+    border-radius: 5px;
+    accent-color: green;
+}
+span{
+    font-size:1.2em
+}
+#sign-in{
+    background-color:green;
+    font-size:1.1em;
+    padding:.5em;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#sign-in:hover, #sign-in:focus{
+    cursor: pointer;
+    background-color:#669b02;
+}
+#form{
+    /* border:1px solid; */
+    border-radius: 10px;
+    padding:3em;
+    background-color:white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
