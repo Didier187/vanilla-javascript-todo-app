@@ -24,7 +24,7 @@ input[type="checkbox"]{
     background: #555;
     position: relative;
     border-radius: 5px;
-    accent-color: green;
+    /* accent-color: green; */
 }
 span{
     font-size:1.2em
