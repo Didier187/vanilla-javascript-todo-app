@@ -10,7 +10,6 @@ let rememberMeStatusEl = document.getElementById('remember-me')
 window.addEventListener('load',() => {
     if(localStorage.getItem('localUser')){    
         let localUserVar = JSON.parse(localStorage.getItem('localUser'))
-
         //login with localstorage credentials
         login(localUserVar[0],localUserVar[1])
     }
@@ -28,7 +27,6 @@ form.addEventListener('submit', function logSubmit(event) {
      }
      //log in with information provides
      login(username,password)
-
      // clear the input fields
      usernameEl.value=''
      passwordEl.value=''
@@ -36,7 +34,7 @@ form.addEventListener('submit', function logSubmit(event) {
     
 })
 
-//login function
+//dummy login function 
 const login =(username, password)=>{
     console.log('logging in .... with username: ' + username + ' password: ' + password)
 }
